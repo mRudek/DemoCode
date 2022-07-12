@@ -1,0 +1,88 @@
+/* Basic CSS Reset */
+html {
+    box-sizing: border-box;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 0;
+    background-color: rgb(12, 8, 10);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+/* CSS */
+
+.day-container{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: 100px;  
+    width: 110px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.dayEvent-container{
+    display: flex;
+    float: left;
+    overflow:hidden;
+    height: 20px;  
+    width: 110px;
+    font-size: 12px;
+    background-color: rgb(147, 218, 171);
+}
+
+.dayNo{
+    text-align: center;
+    height: 20px;  
+    width: 110px;
+    font-size: 15px;
+    background-color: rgb(210, 219, 85);
+}
+
+#kalender-container{
+    display: flex;
+    background-color: rgb(2, 0, 0);
+}
+
+#month-container{
+    display: grid;
+    /* position: relative; */
+    top: 10px;
+    left: 10px;
+    height: 800px;  
+    width: 771px;
+    font-size: 20px;
+    background-color: rgb(125, 119, 139);
+}
+
+#month-name{
+    height: 60px;  
+    font-size: 25px;
+    background-color: rgb(138, 100, 226);
+    text-align: center;
+}
+
+#eventList-container{
+    display: grid;
+    top: 10px;
+    /* left: 300px; */
+    height: 800px;  
+    width: 200px;
+    font-size: 20px;
+    background-color: rgb(147, 114, 224);
+}
+
+
+#addNewEventBtn{
+    height: 50px;  
+    font-size: 20px;
+    /* background-color: rgb(138, 100, 226); */
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,238 @@
+/* Basic CSS Reset */
+html {
+    height: 10px;
+    box-sizing: border-box;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 0;
+    background-color: rgb(241, 99, 3);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+/* complette Screen, only 1 allowed */
+.level-0-box{
+    /* float: left; */
+    /* display: flex; */
+    height: 1400px; 
+    width: 910px;
+    font-size: 12px;
+    background-color: rgb(29, 9, 145);
+}
+
+.level-1-playerTableScreen{
+    display: grid;
+    /* float: left; */
+    /* display: flex; */
+    height: 1000px; /* 300 340 460*/
+    width: 750px;
+    font-size: 12px;
+    background-color: rgb(29, 16, 145);
+}
+
+.level-1-playerTableScreen-player{
+    display: flex;
+    float: left;
+    /* display: flex; */
+    height: 800px; /* 300 340 460px*/
+    width: 2700px;
+    font-size: 12px;
+    background-color: rgb(38, 17, 228);
+}
+
+#handcard-table{
+    display: flex;
+    float: left;
+    border-style: dashed;
+    height: 365px;  
+    width: 600px;
+    font-size: 10px;
+    background-color: rgb(240, 142, 29);
+}
+
+#officer-table{
+    /* display: grid; */
+    float: left;
+    border-style: dashed;
+    height: 140px; 
+    width: 400px;
+    font-size: 28px;
+    background-color: rgb(168, 97, 133);
+}
+
+#hero-table{
+    /* display: grid; */
+    float: left;
+    border-style: dashed;
+    height: 145px; 
+    width: 400px;
+    font-size: 28px;
+    background-color: rgb(185, 15, 15);
+}
+
+#king-table{
+    /* display: grid; */
+    float: left;
+    border-style: dashed;
+    height: 140px; 
+    width: 400px;
+    font-size: 28px;
+    background-color: rgb(39, 180, 98);
+}
+
+#soldier-table{
+    /* display: grid; */
+    float: left;
+    border-style: dashed;
+    height: 140px; 
+    width: 400px;
+    font-size: 28px;
+    background-color: rgb(192, 83, 19);
+}
+
+/*level-1-playfield 1600*/
+.level-1-playFieldScreen-mid-cards{
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 500px; 
+    width: 900px;
+    font-size: 35px;
+    background-color: rgb(215, 230, 13);
+}
+
+.level-1-playFieldScreen-mid-status{
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 160px; 
+    width: 800px;
+    font-size: 24px;
+    background-color: rgb(177, 236, 219);
+}
+
+.level-2-playFieldScreen-mid-status{
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 160px; 
+    width: 470px;
+    font-size: 24px;
+    color: rgb(3, 3, 0);
+    background-color: rgb(5, 253, 5);
+}
+
+/* StatusScreen */
+.level-1-statusScreen{
+    /* display: flex; */
+    font-size: 38px;
+    padding-top: 25px;
+}
+
+.level-3-get7StatusScreenElement{
+    display: flex;
+    height: 15px; 
+    width: 500px;
+    font-size: 12px;
+    background-color: rgb(202, 221, 215);
+}
+
+.level-2-joinBtns{
+    border: 2px solid rgb(250, 1, 1);
+    background-color: white;
+    color: black;
+    /* font-size: 16px; */
+    cursor: pointer;
+    width: 100px;
+    height: 100px; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-Size: 'contain';
+    background-Position: 'center';
+    background-Repeat: 'no-repeat'; 
+    background-size: 100% 100%;
+    font-size: 12px;
+}
+
+.level-2-joinBtnKick{
+    border: 2px solid rgb(250, 1, 1);
+    background-color: white;
+    color: black;
+    /* font-size: 16px; */
+    cursor: pointer;
+    width: 100px;
+    height: 50px; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-Size: 'contain';
+    background-Position: 'center';
+    background-Repeat: 'no-repeat'; 
+    background-size: 100% 100%;
+    font-size: 12px;
+}
+
+.level-2-joinBtns:hover{
+    opacity: 0.3;
+}
+
+.playingcard{
+    height: 180px; 
+    width: 110px;
+    background-Size: 'contain';
+    background-Position: 'center';
+    background-Repeat: 'no-repeat'; 
+    background-size: 100% 100%;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(178, 235, 164);
+    background-color: rgb(6, 192, 248);
+    text-align: left;
+}
+
+.playingcard:hover{
+    opacity: 0.3;
+}
+
+/* -----------------END----------- */
+/* #playingcard:focus {
+    top:400px;
+    right: 100%;
+  } */
+
+
+/* zum vergleich memory */
+/* .playingcardsssss{
+    width: 85px;
+    height: 130px; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-Size: 'contain';
+    background-Position: 'center';
+    background-Repeat: 'no-repeat'; 
+    background-size: 100% 100%;
+} */
+
+
+/* #testbtn {
+    position: fixed;
+    left: 200px;
+    top: 0px;
+    transition: all 4s linear;
+  }
+  #testbtn:focus {
+    top:400px;
+    right: 100%;
+  } */
+
+  /* #testbtn {
+    position: fixed;
+    right: 50%;
+    top: 50%;
+    margin-right: -84px;
+    transition: all 0.3s linear;
+  }
+  #testbtn:focus {
+    top:0;
+    right: 100%;
+  } */

@@ -1,0 +1,81 @@
+/* source:https://www.divinectorweb.com/2020/11/fixed-header-with-html-and-css.html */
+header{
+	height: 100px;
+	width: 100%;
+	z-index: 5;
+	position: fixed;
+}
+
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+#navbar{
+  color: rgb(129, 8, 8);
+  background: rgb(23, 156, 23);
+  width:100%;
+  overflow: hidden;
+  position: fixed;
+  text-align: left;
+}
+
+#nav-elements{
+  color: #fff;
+  width:100%;
+  overflow: hidden;
+  position: fixed;
+  top: 70px;
+}
+
+#top-abstand{
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 60px;
+}
+
+/* source: https://forum.freecodecamp.org/t/height-of-the-welcome-section-should-be-equal-to-the-height-of-the-viewport/214083/4*/
+#welcome-section{
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 30vh;
+}
+
+#welcome-container{
+    height: 20px;
+}
+
+.content-container{
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #52a589;
+	height: 50px;
+  height: auto;
+}
+
+/*--------------------------*/
+/* selectGame.js */
+/*--------------------------*/
+.select-game-container{ 
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 2px solid red;
+  /* font-size: 20px; */
+  background-color: rgb(144, 202, 178);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: orange;
+  }
+  
+  @media (min-width: 400px){
+    #navbar{
+      color:yellow;
+    }
+  }
+}

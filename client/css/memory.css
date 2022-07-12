@@ -1,0 +1,85 @@
+/*--------------------------*/
+/* Index HTML */
+/*--------------------------*/
+
+/* Basic CSS Reset */
+html {
+    height: 1000px;
+    box-sizing: border-box;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+/*--------------------------*/
+/* selectGame.js */
+/*--------------------------*/
+  .select-game-container{ 
+    width: 800px;
+    font-size: 52px;
+    background-color: rgb(237, 166, 100);
+}
+  
+/*--------------------------*/
+/* memory.js */
+/*--------------------------*/
+.memory-stat-container{ 
+    width: 400px;
+    font-size: 14px;
+    background-color: cornflowerblue;
+}
+.memory-highscore-container{ 
+    width: 400px;
+    font-size: 14px;
+    background-color: rgb(207, 31, 60);
+}
+
+.memory-card-container{
+    width: 400px; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.memory-playingcard{
+    width: 85px;
+    height: 130px; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-Size: 'contain';
+    background-Position: 'center';
+    background-Repeat: 'no-repeat'; 
+    background-size: 100% 100%;
+}
+
+
+.memory-cardOnTable:hover{
+    opacity: 0.3;
+}
+
+.newGameButton{
+    width: 340px;
+    height: 200px;
+    background-color: rgb(53, 23, 185);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-Image: url('/assets/btnImage/newGame.jpg');
+    background-size: 100% 100%;
+    background-Size: 'contain';
+    background-Position: 'center';
+    background-Repeat: 'no-repeat'; 
+}
+

@@ -1,0 +1,10 @@
+{
+    "name": "testapp113324",
+    "short_name": "testapp",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/"
+  }

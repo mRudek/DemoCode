@@ -1,0 +1,341 @@
+/* Basic CSS Reset */
+html {
+    height: 10px;
+    box-sizing: border-box;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 0;
+    background-color: rgb(175, 52, 124);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+/* complette Screen, only 1 allowed */
+.level-0-box{
+    /* float: left; */
+    /* display: flex; */
+    /* display: grid; */
+    /* width: 1900px; fuer breite ganzes fenster */
+    height: 1000px; 
+    width: 1900px;
+    font-size: 12px;
+    background-color: rgb(0, 0, 0);
+}
+
+.level-1-playerTableScreen{
+    display: grid;
+    /* float: left; */
+    /* display: flex; */
+    height: 460px; /* 300 340*/
+    width: 750px;
+    font-size: 12px;
+    background-color: rgb(29, 16, 145);
+}
+
+.level-1-playerTableScreen-player{
+    display: grid;
+    /* float: left; */
+    /* display: flex; */
+    height: 460px; /* 300 340*/
+    width: 1500px;
+    font-size: 12px;
+    background-color: rgb(29, 16, 145);
+}
+
+/* EnemyHand */
+#hero-table-enemy{
+    display: grid;
+    float: left;
+    border-style: double;
+    height: 100px; 
+    width: 550px;
+    font-size: 12px;
+    background-color: rgb(185, 15, 15);
+}
+
+#king-table-enemy{
+    display: grid;
+    float: left;
+    border-style: double;
+    height: 100px; 
+    width: 550px;
+    font-size: 12px;
+    background-color: rgb(39, 180, 98);
+}
+
+#officer-table-enemy{
+    display: grid;
+    float: left;
+    border-style: double;
+    height: 100px; 
+    width: 490px;
+    font-size: 12px;
+    background-color: rgb(168, 97, 133);
+}
+
+#soldier-table-enemy{
+    display: grid;
+    float: left;
+    border-style: double;
+    height: 100px; 
+    width: 1000px;
+    font-size: 12px;
+    background-color: rgb(192, 83, 19);
+}
+
+#handcards-table-enemy{
+    display: grid;
+    float: left;
+    border-style: double;
+    height: 200px;  
+    width: 300px;
+    font-size: 16px;
+    background-color: rgb(111, 42, 138);
+}
+
+/* PlayerHand */
+#handcard-table{
+    display: grid;
+    float: left;
+    border-style: double;
+    height: 280px;  
+    width: 310px;
+    font-size: 20px;
+    background-color: rgb(111, 42, 138);
+}
+
+#hero-table{
+    display: grid;
+    float: left;
+    border-style: double;
+    height: 140px; 
+    width: 550px;
+    font-size: 20px;
+    background-color: rgb(185, 15, 15);
+}
+
+#king-table{
+    display: grid;
+    float: left;
+    border-style: double;
+    height: 140px; 
+    width: 550px;
+    font-size: 20px;
+    background-color: rgb(39, 180, 98);
+}
+
+#officer-table{
+    display: grid;
+    float: left;
+    border-style: double;
+    height: 140px; 
+    width: 490px;
+    font-size: 20px;
+    background-color: rgb(168, 97, 133);
+}
+
+#soldier-table{
+    display: grid;
+    float: left;
+    border-style: double;
+    height: 140px; 
+    width: 1000px;
+    font-size: 20px;
+    background-color: rgb(192, 83, 19);
+}
+
+
+
+/*level-1-playfield 1600*/
+.level-1-playFieldScreen-mid-cards{
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 250px; 
+    width: 1900px;
+    font-size: 35px;
+    background-color: rgb(215, 230, 13);
+}
+
+/* Regeln */
+.level-2-playFieldScreen-mid-rules{
+    /* display: flex; */
+    height: 250px; 
+    width: 700px; /* width = 1900 - width level-1-playfield */
+    font-size: 12px;
+    background-color: rgb(180, 190, 33);
+}
+
+.level-2-playFieldScreen-mid-cards{
+    display: flex;
+    /* display: inline-grid; */
+    height: 105px; 
+    width: 70px;
+    /* border-style: dashed; */
+    font-size: 35px;
+     /* opacity: 0.9; */
+    /* background-color: rgb(255, 255, 255);  */
+}
+
+.level-1-playFieldScreen-mid-status{
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 160px; 
+    width: 900px;
+    font-size: 24px;
+    background-color: rgb(177, 236, 219);
+}
+
+.level-2-playFieldScreen-mid-status-side{
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 160px; 
+    width: 350px;
+    font-size: 24px;
+    color: rgb(3, 3, 0);
+    background-color: rgb(5, 253, 5);
+}
+
+.level-2-playFieldScreen-mid-status-mid{
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 160px; 
+    width: 300px;
+    font-size: 24px;
+    color: rgb(3, 3, 0);
+    background-color: rgb(5, 104, 253);
+}
+
+
+
+
+/* StatusScreen */
+.level-1-statusScreen{
+    /* display: flex; */
+    font-size: 38px;
+    padding-top: 25px;
+}
+
+.level-3-get7StatusScreenElement{
+    display: flex;
+    height: 15px; 
+    width: 500px;
+    font-size: 12px;
+    background-color: rgb(202, 221, 215);
+}
+
+.level-2-joinBtns{
+    border: 2px solid rgb(250, 1, 1);
+    background-color: white;
+    color: black;
+    /* font-size: 16px; */
+    cursor: pointer;
+    width: 100px;
+    height: 100px; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-Size: 'contain';
+    background-Position: 'center';
+    background-Repeat: 'no-repeat'; 
+    background-size: 100% 100%;
+    font-size: 12px;
+}
+
+.level-2-joinBtnKick{
+    border: 2px solid rgb(250, 1, 1);
+    background-color: white;
+    color: black;
+    /* font-size: 16px; */
+    cursor: pointer;
+    width: 100px;
+    height: 50px; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-Size: 'contain';
+    background-Position: 'center';
+    background-Repeat: 'no-repeat'; 
+    background-size: 100% 100%;
+    font-size: 12px;
+}
+
+.level-2-joinBtns:hover{
+    opacity: 0.3;
+}
+
+.playingcard{
+    height: 80px; 
+    width: 60px;
+    background-Size: 'contain';
+    background-Position: 'center';
+    background-Repeat: 'no-repeat'; 
+    background-size: 100% 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(6, 192, 248);
+    background-color: rgb(6, 192, 248);
+    text-align: left;
+}
+
+.playingcard:hover{
+    opacity: 0.3;
+}
+
+.playingcard-SmallCards{
+    height: 75px; 
+    width: 50px;
+    background-Size: 'contain';
+    background-Position: 'center';
+    background-Repeat: 'no-repeat'; 
+    background-size: 100% 100%;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(6, 192, 248);
+    background-color: rgb(6, 192, 248);
+    text-align: left;
+}
+
+/* -----------------END----------- */
+/* #playingcard:focus {
+    top:400px;
+    right: 100%;
+  } */
+
+
+/* zum vergleich memory */
+/* .playingcardsssss{
+    width: 85px;
+    height: 130px; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-Size: 'contain';
+    background-Position: 'center';
+    background-Repeat: 'no-repeat'; 
+    background-size: 100% 100%;
+} */
+
+
+/* #testbtn {
+    position: fixed;
+    left: 200px;
+    top: 0px;
+    transition: all 4s linear;
+  }
+  #testbtn:focus {
+    top:400px;
+    right: 100%;
+  } */
+
+  /* #testbtn {
+    position: fixed;
+    right: 50%;
+    top: 50%;
+    margin-right: -84px;
+    transition: all 0.3s linear;
+  }
+  #testbtn:focus {
+    top:0;
+    right: 100%;
+  } */
